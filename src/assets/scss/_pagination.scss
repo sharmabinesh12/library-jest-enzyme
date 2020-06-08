@@ -1,0 +1,41 @@
+$boxShadow: 0px -2px 8px rgba(0, 0, 0, 0.2);
+.pagination-view-common {
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: $boxShadow;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ebebeb;
+  border-radius: 4px;
+  .inner-alignment {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    span {
+      font-size: 14px;
+    }
+  }
+  .display-flex-row {
+    display: flex;
+  }
+  .input-box {
+    .input {
+      margin: 0;
+    }
+  }
+  .page-input-field {
+    color: #000;
+    width: 40px;
+    height: 24px;
+    text-align: center;
+    border: 0;
+    border-radius: 3px;
+    margin-right: 4px;
+    padding: 0;
+    min-width: 40px;
+  }
+  .page-number-field {
+    line-height: 26px;
+  }
+}
